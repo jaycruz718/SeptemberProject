@@ -1,6 +1,6 @@
 alert("Are You Ready For Halloween?!");
 
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("login-form");
   const username = document.getElementById("username");
   const password = document.getElementById("password");
@@ -31,4 +31,4 @@ document.addEventListener("DOMContentLoaded", function () {
       errorMsg.textContent = "Invalid username or password. Try again.";
     }
   });
-});
+}); */
