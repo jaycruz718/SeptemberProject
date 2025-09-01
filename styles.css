@@ -1,13 +1,13 @@
-htmt, body {
+html, body {
     margin: 0;
     height: 100%;
     padding: 0%;
-    background-color: orange;
 }
 
 .navbar {
-    background-color: white;
+    background-color: orange;
     padding: 20px;
+    position: relative;
 }
 
 .navbar ul {
@@ -20,6 +20,10 @@ htmt, body {
 .navbar ul li {
     display: inline;
     margin: auto;
+}
+
+.navbar ul li a:hover {
+    color: white;
 }
 
 .container {
@@ -44,6 +48,14 @@ h1 {
     font-size: 4rem;
     font-weight: 500;
     margin-bottom: 20px;
+    text-align: center;
+    color: orange;
+}
+
+p {
+    color: orange;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .timebox {
@@ -65,4 +77,14 @@ h1 {
   padding: 2rem;
   background-color: #ecf0f1;
   border-bottom: 1px solid #bdc3c7;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }

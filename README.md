@@ -4,3 +4,6 @@
 ### WELCOME
 - Welcome to my Autumn Lover's page.
 
+
+## Resources
+- https://www.canva.com/s/templates?query=Halloween+videos
